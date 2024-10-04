@@ -7374,3 +7374,19 @@ h1, h2, h3, h4, h5, h6 {
 .social_icon a:hover {
   transform: scale(1.1); /* Optional: add a hover effect */
 }
+
+
+.mfp-close {
+  color: #fff; /* Set color for the close button */
+  font-size: 24px; /* Adjust the size as needed */
+  text-align: center; /* Center the text */
+  line-height: 1; /* Adjust line height */
+  position: absolute; /* Position it properly */
+  top: 20px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+  z-index: 1000; /* Make sure it is above other elements */
+}
+
+.mfp-close:hover {
+  color: #f00; /* Change color on hover */
+}
