@@ -32,6 +32,10 @@
  <!-- Owl Carousel CSS -->
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+
 </head>
 
 <body>
@@ -279,9 +283,10 @@
                 </div>
             </div>
         </div>
+            
 
     </div>
-    </section>
+</section>
 
 <!--Gallery end-->
 
@@ -421,7 +426,25 @@ $(document).ready(function(){
         });
       </script>
 
-      
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.img-pop-up').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true
+      },
+      closeOnContentClick: true,
+      closeBtnInside: true
+    });
+  });
+</script>
+
+
+
+   
+ 
 </body>
 
 </html>
