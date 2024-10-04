@@ -624,7 +624,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     });
 </script>
 
-
+<script>
+    document.addEventListener('scroll', function() {
+      const dropdown = document.querySelector('.navbar-collapse.show');
+      if (dropdown) {
+        document.querySelector('.navbar-toggler').click();
+      }
+    });
+  </script>
+  
 
 
 

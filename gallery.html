@@ -405,6 +405,18 @@ $(document).ready(function(){
     <a href="https://wa.me/yourwhatsapplink" class="whatsapp_float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+
+    <script>
+        document.addEventListener('scroll', function() {
+          const dropdown = document.querySelector('.navbar-collapse.show');
+          if (dropdown) {
+            document.querySelector('.navbar-toggler').click();
+          }
+        });
+      </script>
+
+      
 </body>
 
 </html>

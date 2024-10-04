@@ -267,6 +267,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/waypoints.min.js"></script>
 <!-- custom js -->
 <script src="js/custom.js"></script>
+
+
+
+<script>
+  document.addEventListener('scroll', function() {
+    const dropdown = document.querySelector('.navbar-collapse.show');
+    if (dropdown) {
+      document.querySelector('.navbar-toggler').click();
+    }
+  });
+</script>
+
+
 </body>
 
 </html>
